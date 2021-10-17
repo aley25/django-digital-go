@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1>Write your text below:</h1>
+        
+        <form method="post" action="result/">
+            {% csrf_token %}
+            <textarea name='text'></textarea>
+            <input type="submit">
+        </form>
+    </body>
+</html>
